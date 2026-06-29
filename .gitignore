@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw and processed data
+data/raw/*
+data/processed/*
+
+# But keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Optional: model outputs
+models/*
+!models/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
