@@ -35,3 +35,17 @@ The analysis focuses on player activity, owned games, achievements and social co
 - Player segmentation
 - Power BI or Tableau dashboard
 - Executive summary
+
+
+## Data Storage
+
+The full raw dataset is stored locally in a PostgreSQL database and is not committed to this repository due to file size.
+
+The repository contains only:
+- analysis notebooks,
+- SQL transformation scripts,
+- documentation,
+- generated metadata reports,
+- dashboard files or screenshots.
+
+To reproduce the analysis, users should download the source dataset and load it into PostgreSQL.
